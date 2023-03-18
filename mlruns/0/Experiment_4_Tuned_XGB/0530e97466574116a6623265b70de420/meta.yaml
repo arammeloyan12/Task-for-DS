@@ -1,0 +1,15 @@
+artifact_uri: file:///home/aram/Desktop/Task%20for%20DS/mlruns/982166810181307758/0530e97466574116a6623265b70de420/artifacts
+end_time: 1678967497289
+entry_point_name: ''
+experiment_id: '982166810181307758'
+lifecycle_stage: active
+run_id: 0530e97466574116a6623265b70de420
+run_name: spiffy-gull-348
+run_uuid: 0530e97466574116a6623265b70de420
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1678967490805
+status: 3
+tags: []
+user_id: aram
