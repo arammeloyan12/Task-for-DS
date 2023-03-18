@@ -1,0 +1,31 @@
+1)Subscribers percentage who had activated Tariffs consequently
+
+SELECT 100*min(id)/max(id) as percentage FROM(
+SELECT COUNT(id) as id FROM(
+SELECT id, (100*(MAX(date) - MIN(date)))/COUNT(id)  as consequently
+FROM task
+GROUP BY ID)
+WHERE consequently > 0 And consequently < 100 
+UNION
+SELECT COUNT(DISTINCT id) as id FROM task)
+
+
+2)Compare average revenues of both groups (consequently ones and non-consequently)
+
+SELECT COUNT(id) as Distinct_id, AVG(Revenue) as AVG_Revenue FROM(
+SELECT id, SUM(Revenue) as Revenue,  (100*(MAX(date) - MIN(date)))/COUNT(id)  as consequently
+FROM task
+GROUP BY ID)
+WHERE consequently > 0 And consequently < 100 
+UNION
+SELECT COUNT(id) as Distinct_id, AVG(Revenue) as AVG_Revenue FROM(
+SELECT id, SUM(Revenue) as Revenue,  (100*(MAX(date) - MIN(date)))/COUNT(id)  as not_consequently
+FROM task
+GROUP BY ID)
+WHERE not_consequently = 0 OR not_consequently >= 100
+
+
+3)The most recent tariff plan for each subscriber
+
+SELECT  ID, Tariff_Activity,  MAX(Date) FROM task  GROUP BY ID
+
