@@ -1,0 +1,15 @@
+artifact_uri: file:///home/aram/Desktop/Task%20for%20DS/mlruns/633500944884596891/452da9c679ef4f4d931f5496179760fa/artifacts
+end_time: 1678961793647
+entry_point_name: ''
+experiment_id: '633500944884596891'
+lifecycle_stage: active
+run_id: 452da9c679ef4f4d931f5496179760fa
+run_name: sedate-perch-147
+run_uuid: 452da9c679ef4f4d931f5496179760fa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1678961789045
+status: 3
+tags: []
+user_id: aram
