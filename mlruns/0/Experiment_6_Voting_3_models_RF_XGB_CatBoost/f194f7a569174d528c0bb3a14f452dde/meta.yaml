@@ -1,0 +1,15 @@
+artifact_uri: file:///home/aram/Desktop/Task%20for%20DS/mlruns/869760020490232439/f194f7a569174d528c0bb3a14f452dde/artifacts
+end_time: 1678975973982
+entry_point_name: ''
+experiment_id: '869760020490232439'
+lifecycle_stage: active
+run_id: f194f7a569174d528c0bb3a14f452dde
+run_name: likeable-sponge-343
+run_uuid: f194f7a569174d528c0bb3a14f452dde
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1678975968087
+status: 3
+tags: []
+user_id: aram
