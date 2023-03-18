@@ -1,0 +1,15 @@
+artifact_uri: file:///home/aram/Desktop/Task%20for%20DS/mlruns/910086603650617871/21ef5997f2344081ac13d178cc94d33b/artifacts
+end_time: 1678961808791
+entry_point_name: ''
+experiment_id: '910086603650617871'
+lifecycle_stage: active
+run_id: 21ef5997f2344081ac13d178cc94d33b
+run_name: sassy-wasp-209
+run_uuid: 21ef5997f2344081ac13d178cc94d33b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1678961805694
+status: 3
+tags: []
+user_id: aram
